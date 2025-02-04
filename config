@@ -1,36 +1,80 @@
-## Configuration for ghostty ###
+## Shell
+
 command = /usr/bin/zsh -l
 shell-integration = zsh
+shell-integration-features = no-title
 working-directory = home
-quit-after-last-window-closed = true
-background-opacity = 0.84
-unfocused-split-opacity = 0.92
+
+## Updates
+
+auto-update = off
+
+## Notifications
+
+desktop-notifications = false
+
+### GTK
+
+gtk-adwaita = true
+adw-toolbar-style = flat
+gtk-titlebar = true
+
+## Window
+
 window-padding-y = 0
 window-padding-x = 0
 window-padding-balance = true
 window-padding-color = extend
 window-theme = ghostty
-window-height = 24
+window-height = 26
 window-width = 100
-window-new-tab-position = end
 window-decoration = true
+
+background-opacity = 0.84
+unfocused-split-opacity = 0.92
+
 bold-is-bright = true
+
+theme = catppuccin-mocha
+
+## Tabs
+
 gtk-tabs-location = bottom
 gtk-wide-tabs = false
-theme = catppuccin-mocha
-font-family = Ryan Term Extrabold
-font-family = Symbols Nerd Font Mono
-font-family = Noto Color Emoji
-font-size = 11
+window-new-tab-position = end
+
+## Mouse
+
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 3
 focus-follows-mouse = true
+
+## Cursor
+
 cursor-style = block
-auto-update = off
-desktop-notifications = false
-gtk-adwaita = true
-adw-toolbar-style = flat
-gtk-titlebar = true
-confirm-close-surface = false
+
+## Fonts
+
+font-family = Ryan Term
+font-style  = Semibold
+font-style-bold = Heavy
+font-style-italic = Semibold Oblique
+font-style-bold-italic = Heavy Oblique
+font-family = Symbols Nerd Font Mono
+font-family = Noto Color Emoji
+font-size = 11
+
+## Clipboard
+
 clipboard-write = allow
 clipboard-read = ask
+
+## Quit
+
+quit-after-last-window-closed = true
+confirm-close-surface = false
+
+## Keybinds
+
+keybind = control+right=new_split:right
+keybind = control+down=new_split:down
