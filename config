@@ -33,6 +33,8 @@ window-decoration = true
 background-opacity = 0.84
 unfocused-split-opacity = 0.92
 
+background-blur= true
+
 bold-is-bright = true
 
 theme = catppuccin-mocha
@@ -62,6 +64,7 @@ font-style-italic = Semibold Oblique
 font-style-bold-italic = Heavy Oblique
 font-family = Symbols Nerd Font Mono
 font-family = Noto Color Emoji
+font-family = JoyPixels
 font-size = 11
 
 ## Clipboard
@@ -75,6 +78,9 @@ quit-after-last-window-closed = true
 confirm-close-surface = false
 
 ## Keybinds
+
+keybind = control+shift+o=unbind
+keybind = control+shift+e=unbind
 
 keybind = control+right=new_split:right
 keybind = control+down=new_split:down
