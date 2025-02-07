@@ -80,6 +80,8 @@ confirm-close-surface = false
 
 keybind = control+shift+o=unbind
 keybind = control+shift+e=unbind
+keybind = control+shift+comma=unbind
 
 keybind = control+right=new_split:right
 keybind = control+down=new_split:down
+keybind = control+shift+r=reload_config
