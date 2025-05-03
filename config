@@ -62,8 +62,6 @@ font-style  = Semibold
 font-style-bold = Heavy
 font-style-italic = Semibold Oblique
 font-style-bold-italic = Heavy Oblique
-font-family = Symbols Nerd Font Mono
-font-family = Noto Color Emoji
 font-size = 11
 
 ## Clipboard
